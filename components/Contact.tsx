@@ -1,9 +1,15 @@
-
+import styles from '../styles/Contact.module.scss';
 
 export default function Contact() {
     return (
-        <div>
-            contact page
+        <div className={styles.contact}>
+            <h2 className={styles.contact__title}>Any questions? <span className={styles.colored}>Contact us.</span>
+            </h2>
+            <p className={styles.contact__paragraph}> We appraciate your feedback, feel free to contact us
+                if you have any questions! </p>
+            <a href="#">
+                <button>Contact Us</button>
+            </a>
         </div>
     )
 }

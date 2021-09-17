@@ -16,7 +16,7 @@ interface IProductProps {
 
 const Product = (props: IProductProps) => {
     return (
-        <div}>
+        <div>
             project
         </div >
     )
