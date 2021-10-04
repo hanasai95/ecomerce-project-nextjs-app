@@ -18,7 +18,7 @@ export default function Home({ products }: IProductListProps) {
     return (
         <>
             <Head>
-                <title>Hana's Betta fish store</title>
+                <title>{`Hana's Betta fish store`}</title>
                 <link rel="preconnect" href="https://app.snipcart.com" />
                 <link rel="preconnect" href="https://cdn.snipcart.com" />
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
